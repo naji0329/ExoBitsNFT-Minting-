@@ -44,10 +44,8 @@ export default function Mint(props) {
 					// Setting the gasLimit with the estimate accuired above helps ensure accurate estimates in the wallet transaction.
 					gasLimit: gasLimit
 				});
-
 			// Output the result for the console during development. This will help with debugging transaction errors.
 			console.log('result', result);
-
 			// Refresh the gallery
 			CheckAssetURIs();
 
